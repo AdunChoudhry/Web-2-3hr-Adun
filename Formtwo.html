@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+
+<!-- Head Section is all nonvisible elements-->
+<head>
+
+    <!-- All inpage style goes here-->
+    <style>
+        :root {
+            --mainbg: #9cd3d3;
+            --headercolor: #e8630a;
+            --navcolor:#2b4353;
+            --navtext: white;
+            --footercolor: #2b4353;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background: var(--headercolor);
+            padding: 1rem;
+            color: white;
+        }
+        nav {
+            background: var(--navcolor);
+            color: var(--navtext);
+            padding: 1rem;
+        }
+        footer {
+            background: var(--footercolor);
+            color: var(--navtext);
+            padding: 1rem; 
+            min-height: 12vh;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: var(--mainbg);
+            min-height: 70vh;
+        }
+
+        label {
+            display: block;
+            font-size: 1.25rem;
+            padding: .5rem;
+        }
+
+       
+        
+        input[type=text] {
+            padding: .5rem;
+           margin: .5rem;
+           font-size: 1.25rem;
+           width: 50%;
+
+
+        }
+
+        input[type=email] {
+            padding: .5rem;
+           margin: .5rem;
+           font-size: 1.25rem;
+           width: 50%;
+
+
+        }
+
+        
+        input[type=tel] {
+            padding: .5rem;
+           margin: .5rem;
+           font-size: 1.25rem;
+           width: 50%;
+
+
+        }
+
+        input[type=submit] {
+            display: block;
+            padding: 1rem;
+            font-size: 1.5rem;
+            margin: .5rem;
+                }
+        
+
+
+
+    </style>
+
+    <!-- All LINK tags go here-->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Forms Pt 2</title>
+
+</head>
+
+<!-- Body Section is all visible elements-->
+<body>
+
+    <header>
+        <h1>HTML Forms Pt 2</h1>
+    </header>
+    <nav>
+        Nav
+    </nav>
+    <!-- Main page body here. Use container or DIV -->
+    <div class="container">
+
+        <h3>My Secoend Form</h3>
+
+        <form name="myForm" action="#">
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" placeholder="Enter First Name">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" placeholder="Enter Last Name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" placeholder="Enter Email">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" placeholder="Enter Phone Number">
+
+            <label for="msg">Message:</label>
+            <input type="text" name="msg" placeholder="Enter Message">
+
+            <input type="submit" name="submit" value="Submit Form">
+        </form>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <footer>
+        Footer
+    </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Goes Here -->
+
+    
+
+
+
+
+
+</body>
+</html>
