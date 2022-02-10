@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+
+<!-- Head Section is all nonvisible elements-->
+<head>
+
+    <!-- All inpage style goes here-->
+    <style>
+        :root {
+            --mainbg: #233142;
+            --headercolor: #f95959;
+            --navcolor:#455d7a;
+            --navtext: #ffffff;
+            --footercolor: #455d7a;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #233142;
+            overflow: hidden;
+        }
+        header {
+            text-align: center;
+            background: var(--headercolor);
+            padding: 1rem;
+        }
+        nav {
+            background: var(--navcolor);
+            color: var(--navtext);
+            padding: 1rem;
+        }
+        footer {
+            background: var(--footercolor);
+            color: var(--navtext);
+            padding: 1rem; 
+            min-height: 12vh;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: var(--mainbg);
+            min-height: 70vh;
+        }
+        
+        table {
+            width: 60%;
+            margin: auto;
+            font-size: 1.5rem;
+            text-align: center;
+            border-collapse: collapse;
+
+        }
+
+        td {
+            padding: 1.5vh;
+        }
+        
+   
+
+        table, tr, td, th {
+            border: 1px black solid;
+        }
+
+        caption {
+            color: white;
+            padding: 2vh;
+        }
+    
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: lightslategray;
+           
+        }
+
+        tr:nth-child(1) {
+            background-color: gray;
+            color: white;
+        }
+
+        p a {
+           color: white; 
+           padding: 2vh;
+        }
+
+        p {
+            padding: 2vh;
+            margin-left: 14vw;
+        }
+
+    </style>
+
+    <!-- All LINK tags go here-->
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formula One</title>
+
+</head>
+
+<!-- Body Section is all visible elements-->
+<body>
+
+    <header>
+        <h1>Formula One Drivers</h1>
+    </header>
+    <nav>
+        Nav
+    </nav>
+    <!-- Main page body here. Use container or DIV -->
+    <div class="container">
+
+        <table>
+            <caption>Formula One</caption>
+            <tr>
+                <th>Driver</th>
+                <th>Team</th>
+                <th>Points</th>
+                <th>Wins</th>
+                <th>Podiums</th>
+
+
+            </tr> 
+
+            <tr>
+                <td>Max Verstappen</td>
+                <td>Red Bull</td>
+                <td>395.5</td>
+                <td>20</td>
+                <td>60</td>
+
+            </tr>
+
+            <tr>
+                <td>Lewis Hamilton</td>
+                <td>Mercedes</td>
+                <td>387.5</td>
+                <td>103</td>
+                <td>182</td>
+
+            </tr>
+
+            <tr>
+                <td>Valtteri Bottas</td>
+                <td>Mercedes</td>
+                <td>226</td>
+                <td>10</td>
+                <td>67</td>
+
+            </tr>
+
+            <tr>
+                <td>Sergio Pérez</td>
+                <td>Red Bull</td>
+                <td>190</td>
+                <td>2</td>
+                <td>15</td>
+            </tr>
+
+            <tr>
+                <td>Carlos Sainz</td>
+                <td>Ferrari</td>
+                <td>164.5</td>
+                <td>0</td>
+                <td>6</td>
+            </tr>
+
+            <tr>
+                <td>Lando Norris</td>
+                <td>McLaren</td>
+                <td>160</td>
+                <td>0</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>Charles Leclerc</td>
+                <td>Ferrari</td>
+                <td>159</td>
+                <td>2</td>
+                <td>13</td>
+            </tr>
+
+            <tr>
+                <td>Daniel Ricciardo</td>
+                <td>McLaren</td>
+                <td>115</td>
+                <td>8</td>
+                <td>32</td>
+            </tr>
+
+            <tr>
+                <td>Pierre Gasly</td>
+                <td>AlphaTauri</td>
+                <td>110</td>
+                <td>1</td>
+                <td>3</td>
+            </tr>
+
+            <tr>
+                <td>Fernando Alonso</td>
+                <td>Alpine</td>
+                <td>81</td>
+                <td>32</td>
+                <td>98</td>
+            </tr>
+
+            
+        </table>
+        
+        <p><a href="https://www.racing-statistics.com/en/f1-drivers" target="_blank">Source</a></p>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <footer>
+        Footer
+    </footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Goes Here -->
+
+    
+
+
+
+
+
+</body>
+</html>
